@@ -3,3 +3,58 @@
 ################################################################################
 
 *.dll
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+## --- .NET Tooling & Artifacts ---
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResults/
+*.sublime-project
+*.sublime-workspace
+
+## --- User-specific files (Local Settings) ---
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+appsettings.Development.json
+# Docker local overrides
+docker-compose.override.yml
+
+## --- IDE Specifics ---
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# JetBrains (Rider)
+.idea/
+*.sln.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+# Note: Keep .vscode/settings.json if it contains project-wide settings
+# but ignore the following:
+.vscode/tasks.json
+.vscode/launch.json
+
+## --- Core & OS ---
+.DS_Store
+thumbs.db

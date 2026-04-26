@@ -1,0 +1,46 @@
+@ClassifiedsWebApi_HostAddress = http://localhost:5273
+
+### Get all categories
+GET {{ClassifiedsWebApi_HostAddress}}/api/categories
+Accept: application/json
+
+###
+
+### Get category by ID
+GET {{ClassifiedsWebApi_HostAddress}}/api/categories/1
+Accept: application/json
+
+###
+
+### Create a new category
+POST {{ClassifiedsWebApi_HostAddress}}/api/categories
+Content-Type: application/json
+
+{
+  "name": "Books",
+  "description": "Books and magazines"
+}
+
+###
+
+### Update category
+PUT {{ClassifiedsWebApi_HostAddress}}/api/categories/1
+Content-Type: application/json
+
+{
+  "name": "Electronics & Gadgets",
+  "description": "All types of electronic devices and gadgets"
+}
+
+###
+
+### Delete category
+DELETE {{ClassifiedsWebApi_HostAddress}}/api/categories/3
+
+###
+
+### Get weather forecast
+GET {{ClassifiedsWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
